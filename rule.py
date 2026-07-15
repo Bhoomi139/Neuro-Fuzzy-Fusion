@@ -95,5 +95,5 @@ def extract_fuzzy_rules(model_path, feature_names):
 
 if __name__ == "__main__":
     my_detectors = ["FIRE_Logit", "FreqNet_Logit", "F3Net_Logit", "SPSL_Logit", "SRM_Logit"]
-    model_file = r"C:\Users\Bhoomi Priya\Documents\ANFIS\output_final\anfis_bundle_fold_2.pkl" 
+    model_file = "output/anfis_bundle_fold_2.pkl"
     extract_fuzzy_rules(model_file, my_detectors)

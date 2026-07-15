@@ -34,12 +34,7 @@ The proposed pipeline consists of two stages.
 1. Multiple deepfake detectors independently produce prediction scores (logits).
 2. These logits are fused using an ANFIS model that learns fuzzy decision rules for final classification.
 
-```
-<p align="center">
-  <img src="assets/image.png" alt="LFD-Net Architecture" width="900"/>
-</p>
-
-> Replace `assets/architecture.png` with your architecture figure.
+![ANFIS Architecture](assets/image.png)
 
 ## Repository Structure
 
@@ -206,17 +201,3 @@ If you use this work in your research, please cite
 We thank the Department of Computer Science and Engineering, South Asian University, for supporting this research.
 
 ---
-
-## Contact
-
-For questions regarding this work, please contact:
-
-**Bhoomi Priya**
-
-Department of Computer Science and Engineering
-
-South Asian University
-
-New Delhi, India
-
-Email: bhoomipriya@students.sau.ac.in
