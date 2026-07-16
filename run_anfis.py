@@ -1,5 +1,5 @@
 import warnings
-from src.anfis.main import main
+from src.anfis_fusion.main import main
 
 warnings.filterwarnings("ignore")
 
