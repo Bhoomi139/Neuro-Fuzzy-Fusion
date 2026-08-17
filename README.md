@@ -2,7 +2,7 @@
 
 Official implementation of the paper:
 
-**Position Paper: Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection**
+[**Position Paper: Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection**](https://ieeexplore.ieee.org/document/11626363)
 
 **Authors**
 
@@ -91,12 +91,14 @@ ANFIS/
 Clone the repository.
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/Bhoomi139/Neuro-Fuzzy-Fusion.git
 
-cd <repository>
+cd Neuro-Fuzzy-Fusion
 ```
 
-Install dependencies.
+Install dependencies. This project requires python version >=3.8 and <=3.13
+
+The requirements.txt file has been provided w.r.t. python3.13 and corresponding packages.
 
 ```bash
 pip install -r requirements.txt
@@ -185,15 +187,17 @@ The ANFIS pipeline produces
 If you use this work in your research, please cite
 
 ```bibtex
-@inproceedings{chattopadhyay2026neurofuzzy,
-  title={Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection},
+@INPROCEEDINGS{11626363,
   author={Chattopadhyay, Soumyadeep and Priya, Bhoomi and Muhuri, Pranab K.},
-  booktitle={IEEE International Conference on Fuzzy Systems (FUZZ)},
-  year={2026}
-}
+  booktitle={2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
+  title={Position Paper: Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Modeling;Signal detection;Deepfakes;Frequency;Printing;Detectors;Architecture;Computer architecture;Training;Fuzzy logic;Frequency based detection;Neuro-Fuzzy;Ensemble Learning},
+  doi={10.1109/FUZZ69877.2026.11626363}}
 ```
-
-*(Citation will be updated once the proceedings are available.)*
 
 
 ## Acknowledgements
