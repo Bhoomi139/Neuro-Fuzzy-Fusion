@@ -187,16 +187,14 @@ The ANFIS pipeline produces
 If you use this work in your research, please cite
 
 ```bibtex
-@INPROCEEDINGS{11626363,
-  author={Chattopadhyay, Soumyadeep and Priya, Bhoomi and Muhuri, Pranab K.},
-  booktitle={2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 
-  title={Position Paper: Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection}, 
+@inproceedings{chattopadhyay2026position,
+  title={Position Paper: Neuro-Fuzzy Fusion for Dataset-Agnostic Deepfake Detection},
+  author={Chattopadhyay, Soumyadeep and Priya, Bhoomi and Muhuri, Pranab K},
+  booktitle={2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)},
+  pages={1--6},
   year={2026},
-  volume={},
-  number={},
-  pages={1-6},
-  keywords={Modeling;Signal detection;Deepfakes;Frequency;Printing;Detectors;Architecture;Computer architecture;Training;Fuzzy logic;Frequency based detection;Neuro-Fuzzy;Ensemble Learning},
-  doi={10.1109/FUZZ69877.2026.11626363}}
+  organization={IEEE}
+}
 ```
 
 
